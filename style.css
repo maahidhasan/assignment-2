@@ -44,16 +44,23 @@ body {
     width: 531px;
 }
 
-.banner-title .title {
+.banner-title h1.title {
     font-weight: 700;
     font-size: 70px;
     color: white;
+    line-height: 80px;
+    margin-bottom: 20px;
+    margin-top: 111px;
+
 }
 
 .banner-title .title p {
     font-weight: 400;
     font-size: 16px;
     color: white;
+    line-height: 26px;
+    margin-top: 0px;
+
 }
 
 .banner-details img {
