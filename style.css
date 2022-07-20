@@ -1,0 +1,77 @@
+/* fonts */
+/* poppings font weight 400 500 600 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common style  */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+
+}
+
+/* color */
+.white {
+    color: #ffffff
+}
+
+
+
+/* Banner section  */
+
+.main {}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner {
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+
+.banner-details {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title {
+    width: 531px;
+}
+
+.banner-title .title {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+
+.banner-title .title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.banner-details img {
+    width: 581px;
+}
+
+.button-red {
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    border-radius: 5px;
+
+
+}
+
+.button-red a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+}
