@@ -44,6 +44,15 @@ hr {
 
 }
 
+.banner-title p.white {
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-title:hover p.white {
+    transform: scale(1.1);
+
+}
+
 
 
 
@@ -305,3 +314,7 @@ ul.block li a {
     line-height: 20px;
     margin: 0;
 }
+
+/* ----------------------------
+    Mobile and Tab Responsive 
+------------------------------*/
