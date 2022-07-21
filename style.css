@@ -20,41 +20,14 @@ hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+button {
+    border: 1px solid rgba(232, 232, 232, 1);
+}
+
 /* color */
 .white {
     color: #ffffff
 }
-
-/* Bonus Part animation banner  */
-.banner-details img {
-
-    transition: 0.7s all ease-in-out;
-}
-
-.banner-details:hover img {
-    transform: scale(1.1);
-}
-
-.banner-title h1.title {
-    transition: 0.7s all ease-in-out;
-}
-
-.banner-title:hover h1 {
-    transform: scale(1.1);
-
-}
-
-.banner-title p.white {
-    transition: 0.7s all ease-in-out;
-}
-
-.banner-title:hover p.white {
-    transform: scale(1.1);
-
-}
-
-
-
 
 
 /* Banner section  */
@@ -66,7 +39,6 @@ hr {
 .container {
     display: flex;
     justify-content: center;
-
     margin-top: 50px;
 
 }
@@ -315,6 +287,113 @@ ul.block li a {
     margin: 0;
 }
 
+/* Bonus Part animation banner  */
+.banner-details img {
+
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-details:hover img {
+    transform: scale(1.1);
+}
+
+.banner-title h1.title {
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-title:hover h1 {
+    transform: scale(1.1);
+
+}
+
+.banner-title p.white {
+    transition: 0.7s all ease-in-out;
+}
+
+.banner-title:hover p.white {
+    transform: scale(1.1);
+
+}
+
 /* ----------------------------
     Mobile and Tab Responsive 
 ------------------------------*/
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 688px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 992px) {
+
+    .banner {
+        width: 734px;
+
+    }
+
+    .banner-title {
+        width: 316px;
+
+    }
+
+    .banner-title h1.title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    p.white {
+        font-size: 14px;
+    }
+
+    span.hide-tab {
+        color: lawngreen;
+    }
+
+    .banner-details img {
+        width: 323px;
+        height: 340px;
+    }
+
+
+    .display-none {
+        display: block;
+    }
+
+    .upcoming-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .upcoming-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 312px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-right: 24px;
+        align-items: center;
+    }
+
+    .upcoming-right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 24px;
+    }
+
+    .tab-hide {
+        display: none;
+    }
+
+    .only-tab {
+            {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}
