@@ -11,6 +11,10 @@ body {
 
 }
 
+.hide-all {
+    display: none;
+}
+
 .display-none {
     display: none;
 }
@@ -320,68 +324,6 @@ ul.block li a {
 ------------------------------*/
 
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 688px) {
-    .banner {
-        width: 344px;
-
-    }
-
-    .banner-title {
-        width: 288px;
-
-    }
-
-    .banner-title h1.title {
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 33px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-
-    }
-
-    p.white {
-        font-size: 14px;
-    }
-
-
-    .banner-details img {
-        width: 233px;
-        height: 245px;
-    }
-
-
-    .display-none {
-        display: block;
-    }
-
-    .upcoming-row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .upcoming-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-        height: 312px;
-        background-color: #161616;
-        border-radius: 10px;
-        margin-right: 24px;
-        margin-bottom: 54px;
-
-    }
-
-    .upcoming-right {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 24px;
-    }
-
-}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) {
@@ -447,10 +389,84 @@ ul.block li a {
     }
 
     .only-tab {
-            {
-            display: flex;
-            justify-content: center;
-        }
+
+        display: flex;
+        justify-content: center;
+
     }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 688px) {
+    body {
+        margin: 0;
+    }
+
+
+    .banner {
+        width: 344px;
+
+    }
+
+    .banner-title {
+        width: 288px;
+
+    }
+
+    .banner-title h1.title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+
+    }
+
+    .banner-details {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.white {
+        font-size: 14px;
+    }
+
+    .button-red {
+        width: 161px;
+        height: 40px
+    }
+
+    .banner-details img {
+        width: 233px;
+        height: 245px;
+    }
+
+
+    .display-none {
+        display: block;
+    }
+
+    .upcoming-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .upcoming-left {
+        flex-direction: column
+    }
+
+    .upcoming-right {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+    }
+
+    .hide-all {
+        display: inline-block;
+    }
+
 
 }
